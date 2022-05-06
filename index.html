@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <style>
+            table {
+                width: 450px;
+                border-collapse: collapse;
+            }
+            table, th, td {
+                border: 1px solid black;
+            }
+            th, td {
+                padding: 10px;
+            }
+            div.myapp {
+            margin-top: 50px;
+            margin-bottom: -10px;
+            }
+            div.tech {
+            margin-top: 50px;
+            margin-bottom: -10px;
+            }
+            div.contact {
+            margin-top: 50px;
+            margin-bottom: -10px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--is it ok to add more tages? confirm with CodingDojo-->
+        <H1>Micky Shulman</H1>
+        <img src="images/Micky_Shulman_Profile.jpg" width="168" height="166" alt="Micky_Shulman_Profile_Image" style="border: 3px solid black;">
+        <div>
+            <p style="line-height: 10px">
+                <img src="images/icons/Github.png" width="35" height="35" alt="Icon_of_Github_Logo">
+                <a href="https://github.com/Mickyshu" target="_blank">My Github</a>
+                <img src="images/icons/LinkedIn.png" width="35" height="35" alt="Icon_of_LinkedIn_Logo">
+                <a href="https://www.linkedin.com/in/micky-s" target="_blank">My LinkedIn</a>
+                <img src="images/icons/Email.png" width="35" height="35" alt="Icon_of_Email">
+                <a href="mailto:micky@emetdigital.com">My Email</a>
+            </p>
+        </div>
+        <div class="tech">
+        <h2>Technologies</h2>
+            <table>
+                <tr>
+                    <th>Front-End</th>
+                    <th>Python</th>
+                    <th>JavaScript</th>
+                    <th>Database</th>
+                    <th>Concepts</th>
+                </tr>
+                <tr>
+                    <td>HTML5</td>
+                    <td>Django</td>
+                    <td>Express</td>
+                    <td>MySQL</td>
+                    <td>AJAX</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Flask</td>
+                    <td>Mongoose</td>
+                    <td>MongoDB</td>
+                    <td>OOP</td>
+                </tr>
+                <tr>
+                    <td>Bootstrap</td>
+                    <td>Unittest</td>
+                    <td>React</td>
+                    <td></td>
+                    <td>REST</td>
+                </tr>
+            </table>
+        </div>     
+        <div class="myapp">
+            <h2>"My CheckList" App</h2>
+            <a href="https://m.media-amazon.com/images/I/61nt34iuBkL._SS500_.jpg" target="_blank">
+                <img src="images/icons/Check_List.png" width="67" height="100" alt="Icon_Of_CheckList_Logo">
+            </a>
+            <p>
+                <b>Orgnize Your List in 1 Spot! Made in HTML Only!</b>
+            </p>
+            <p>Download&nbsp;<a href="https://m.media-amazon.com/images/I/61nt34iuBkL._SS500_.jpg" target="_blank">Here</a>&nbsp;:)</p>
+        </div>
+        <div class="contact">
+            <h2>"Contact Me</h2>
+            <div>
+                <label>Name:</label>
+                <input type="text" name="name">
+                <label>Email:</label>
+                <input type="text" name="email">
+            </div>
+            <div>
+                <label>Message</label>
+            </div>
+            <div>
+                <textarea name="comment" cols="20" rows="3"></textarea>   
+            </div> 
+            <div>
+                <input type="submit" value="Send Message">
+            </div>
+        </div>
+    </body>
+</html>
